@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: thelook
+    database: bigquery-public-data
+    schema: thelook_ecommerce
+    tables:
+      - name: orders
+# 「公開データの thelook_ecommerce.orders を、dbtの中では thelook の orders と呼ぶ」という登録です。
