@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg_thelook__orders
+    columns:
+      - name: order_id
+        description: 注文ID。1行1注文。
+        data_tests:
+          - unique
+          - not_null
